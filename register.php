@@ -171,26 +171,7 @@ echo"
 
 </div>
 <div id='bottom'>
-<div class='footer inline-list'>
-  <ul>
-    <li><a href='/about'>About</a><span class='dot divider'> ·</span></li>
-    <li><a href='//support.twitter.com'>Help</a><span class='dot divider'> ·</span></li>
-    <li><a href='https://blog.twitter.com'>Blog</a><span class='dot divider'> ·</span></li>
-    <li><a href='http://status.twitter.com'>Status</a><span class='dot divider'> ·</span></li>
-    <li><a href='https://about.twitter.com/careers'>Jobs</a><span class='dot divider'> ·</span></li>
-    <li><a href='/tos'>Terms</a><span class='dot divider'> ·</span></li>
-    <li><a href='/privacy'>Privacy</a><span class='dot divider'> ·</span></li>
-      <li><a href='//support.twitter.com/articles/20170514'>Cookies</a><span class='dot divider'> ·</span></li>
-      <li><a href='//support.twitter.com/articles/20170451'>Ads info</a><span class='dot divider'> ·</span></li>
-      <li><a href='//about.twitter.com/press/brand-assets'>Brand</a><span class='dot divider'> ·</span></li>
-    <li><a href='//ads.twitter.com/start?ref=gl-tw-tw-twitter-advertise'>Advertise</a><span class='dot divider'> ·</span></li>
-    <li><a href='https://business.twitter.com'>Businesses</a><span class='dot divider'> ·</span></li>
-    <li><a href='//media.twitter.com'>Media</a><span class='dot divider'> ·</span></li>
-    <li><a href='//dev.twitter.com'>Developers</a><span class='dot divider'> ·</span></li>
-      <li><a href='/i/directory/profiles'>Directory</a><span class='dot divider'> ·</span></li>
-    <li><span class='copyright'>© 2014 Twitter</span></li>
-  </ul>
-</div></div>
+</div>
 </div>
 </body>
 </html>";
