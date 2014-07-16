@@ -1,0 +1,24 @@
+
+@media (max-width: 768px){
+
+#subnavbar{
+	display:none !important;
+}
+
+.welcomeDiv{
+	padding-left:0px;
+}
+
+.show-for-phones{
+	display:block !important;
+}
+
+.welcomeDiv h1{
+	font-size:2em;
+}
+
+.show-for-phones{
+	display:block;
+}
+
+}

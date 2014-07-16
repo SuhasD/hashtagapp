@@ -1,0 +1,281 @@
+html, body {
+	margin: 0px;
+	margin-top:25px;
+	background: #fff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.95em;
+	color:black;
+	background-color: black;
+}
+
+.subNav li{
+	float:left;
+}
+
+#subnavbar{
+background: url(https://g.twimg.com/about/css_resources/CyTAYwl_szmfgWqluHc4AcrBMU-baDMhHqP-3tgpwlA.png) repeat-x #efefef;
+border-top: 1px solid #eee;
+height: auto;
+clear: both;
+}
+
+a.active-trail:after {
+position: absolute;
+content: '';
+display: block;
+bottom: -10px;
+left: 50%;
+content: '';
+border: 5px solid #ccc;
+border-color: #e9e9e9 transparent transparent;
+margin-left: -5px;
+z-index: 400;
+}
+
+#subnav-wrapper{
+	padding-left:0px !important;
+}
+
+.no-left-padding{
+	padding-left:0px !important;
+}
+
+.subNav li a{
+/* color: #2290bf; */
+color: #555;
+position: relative;
+margin: 0 -1px;
+padding: 18px 30px;
+font-size: 13px;
+text-shadow: none;
+line-height: 1;
+vertical-align: middle;
+border-style: solid;
+border-color: #d9d9d9;
+border-width: 0 1px;
+}
+
+a.active-trail {
+color: #2290bf !important;
+background: #e9e9e9 !important;
+border-color: #d9d9d9 !important;
+position: relative;
+}
+
+.blue-hash{
+color:#63aeee;margin-right:2px;font-weight:bold;
+}
+
+.underline{
+	text-decoration:underline !important;
+}
+
+.usertag p a, .tweet-time{
+	color:white;
+	font-size:14px;
+	text-decoration:underline;
+}
+
+.usertag{
+	margin-top:50px;
+}
+
+.loginbox{
+	position:relative;
+}
+
+h1.title{
+	color:white;
+	font-size:28px;
+	font-weight:bold;
+}
+
+.forgotPwdLink{
+padding-top: 10px;
+font-size: 12px;
+margin-left: 10px;
+text-decoration: underline;
+}
+
+.platform-badge-container{
+	margin-top:20px;
+}
+
+.show-for-phones{
+	display:none !important;
+}
+
+#regbox{
+	background:white;
+	padding:10px;
+	border: 1px solid #e1e8ed;
+	border-radius:10px;
+	box-shadow: 0 0 5px #ffffff;
+	-moz-box-shadow: 0 0 5px #ffffff;
+	-webkit-box-shadow: 0 0 5px #ffffff;
+	margin-bottom:20px;
+}
+
+#regbox h2{
+border-bottom: 1px solid #e1e8ed;
+box-shadow: 0 1px 0 #fff;
+color: #66757f;
+display: block;
+font-size: 16px;
+font-weight: 300;
+margin-bottom: 12px;
+padding: 10px 12px;
+position: relative;
+text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+}
+
+#slideit{
+	background-size:cover;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 150%;
+	padding: 0px;
+}
+
+h2 {
+	margin: 0;
+	text-align: center;
+	font-size: 120%;
+	padding: 0px;
+}
+
+h3 {
+	margin: 0;
+	font-size: 105%;
+	padding: 0px;
+}
+
+.navbar{
+	margin-bottom:0px !important;
+}	
+
+#left-nav ul{
+	padding-left:0px !important;
+}
+
+/* a {
+	color:#4d4948;
+} */
+
+.welcomeDiv h1{
+color: #fff;
+font-size: 38px;
+line-height: 44px;
+margin-bottom: 30px;
+text-shadow: none;
+text-align:left;
+}
+
+#top {
+	margin: 0 auto 0 auto;
+	padding: 15px;
+	background:url('images/top-bg.jpg') repeat-x;
+	width:100%;
+	background-size: cover;
+	height: 200px;
+}
+
+#bottom{
+	clear:both;
+}
+
+#content{
+
+}
+
+.profilePic{
+	float:left;
+}
+
+.profilePic img{
+background-color: #fff;
+border: 4px solid #fff;
+-webkit-border-radius: 2px;
+height: 160px;
+width: 160px;
+}
+
+.login-textwrapper{
+	max-width:550px;
+	margin:auto;
+}
+
+.welcomeDiv p{
+color: #fff;
+font-size: 21px;
+line-height: 31px;
+text-shadow: none;
+}
+
+#main h1, #main h2{
+/* 	text-align:left;
+	margin-bottom:20px;
+	color: #3b5998;
+	cursor: pointer; */
+}
+
+.userName{
+/* 	float:left; */
+}
+
+.userName h3{
+	color: #fff;
+	font-size:24px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:underline;
+}
+
+.userName h2{
+	color: #fff;
+	font-size:20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:10px;
+}
+
+table.admin td {
+	vertical-align: top;	
+}
+
+.form-group{
+	margin-bottom:10px !important;
+}
+
+#error {
+	display:block;
+	margin:5px;
+	color:#4d4948;
+	background-color:#fffebe;
+	border: 1px solid #cbcbcb;
+	font-size:90%;
+}
+
+#success {
+	margin:5px;
+	color:#4d4948;
+	background-color:#bce9b5;
+	border: 1px solid #7ace6c;
+	font-size:90%;
+}
+
+
+/* Footer */
+#globalfooter .g-menu-global-footer {
+float: left;
+font-size: 13px;
+}
+
+#globalfooter .g-menu-global-footer li {
+display: inline-block;
+margin-right: 10px;
+zoom: 1;
+}
