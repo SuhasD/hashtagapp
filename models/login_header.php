@@ -9,13 +9,13 @@ echo "
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 <!-- Latest compiled and minified CSS -->
-<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='models/site-templates/css/bootstrap.min.css'>
 
 <!-- Optional theme -->
-<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
+<link rel='stylesheet' href='models/site-templates/css/bootstrap-theme.min.css'>
 
 <!-- Latest compiled and minified JavaScript -->
-<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+
 <title>".$websiteName."</title>
 <link href='".$template."' rel='stylesheet' type='text/css' />
 <link href='models/site-templates/responsive.css' rel='stylesheet' type='text/css' />
@@ -63,17 +63,17 @@ echo "
 </nav>
 
 
-<!--<nav class='navbar navbar-default' id='subnavbar' role='navigation'>
+<nav class='navbar navbar-default' id='subnavbar' role='navigation'>
   <div class='container-fluid'>
   <div class='container'>
     <div class='collapse navbar-collapse' id='subnav-wrapper' align='center'>
 		<ul class='menu nav clearfix subNav' role='menu'>
-            <li class='first leaf menu-mlid-1264 active active-trail' role='menuitem'><a href='about.php' class='active active-trail'>What is <span class='hash-blue'>#</span>TAG</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/company'>Company</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/press'>Press</a></li>
-			<li class='leaf menu-mlid-753'><a href='/invest'>Investor relations</a></li>
+            <li class='first leaf menu-mlid-1264 active active-trail' role='menuitem'><a href='about.php' class='active active-trail'>What is <span class='hash-blue'>#</span>ContextNetworking?</a></li>
+			<li class='leaf has-children' role='menuitem'><a href='/company'>Buy Beacons</a></li>
+			<li class='leaf has-children' role='menuitem'><a href='/press'>Company</a></li>
+			<li class='leaf menu-mlid-753'><a href='/invest'>Investors</a></li>
 			<li class='leaf menu-mlid-681'><a href='/blogs'>Blogs</a></li>
-			<li class='last leaf menu-mlid-1109'><a href='/careers'>Careers</a></li>
+			<li class='last leaf menu-mlid-1109'><a href='/careers'>Contact</a></li>
 
             <li class='dropdown hide' id='main-menu-more-item'>
               <a href='#' class='dropdown-toggle' data-toggle='dropdown'>
@@ -86,7 +86,6 @@ echo "
     </div>
     </div>
   </div>
-</nav>   -->
-";
+</nav>";
 
 ?>
