@@ -139,7 +139,7 @@ echo "
 <div class='product-message product3'>
     <div class='product-image container'>
 	<div class='col-md-8 no-left-padding'>
-      <h2><a href='#' class='white-hover'>Tell your story to people around you.</a></h2>
+      <h2><a href='#' class='white-hover'>Get Reviews based on Micro-location.</a></h2>
 	  </div>
 	  <div class='col-md-4'>
 		<a class='btn btn-info learn-more-btn' href='#'>

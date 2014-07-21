@@ -45,10 +45,10 @@ echo "
 	  
         <li><a href='index.php' class='underline'><span class='blue-hash'>#</span>ContextNetworking</a></li>
         <li class='dropdown'>
-          <a href='register.php' class='underline'>Sign Up</a>
+          <a href='user_settings.php' class='underline'>Settings</a>
         </li>     
 		<li class='dropdown'>
-          <a href='login.php' class='underline'>Sign In</a>
+          <a href='logout.php' class='underline'>Logout</a>
         </li>
 		    <li class='first leaf menu-mlid-1264 active active-trail show-for-phones' role='menuitem'><a href='about.php' class='active active-trail'>What is <span class='hash-blue'>#</span>TAG</a></li>
 			<li class='leaf has-children show-for-phones' role='menuitem'><a href='/company'>Company</a></li>
@@ -68,12 +68,12 @@ echo "
   <div class='container'>
     <div class='collapse navbar-collapse' id='subnav-wrapper' align='center'>
 		<ul class='menu nav clearfix subNav' role='menu'>
-            <li class='first leaf menu-mlid-1264 active active-trail' role='menuitem'><a href='about.php' class='active active-trail'>What is <span class='hash-blue'>#</span>ContextNetworking?</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/trial'>30-Day Trial<span class='conditions-apply'>*</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/preorder'>Pre-order</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/about'>Company</a></li>
-			<li class='leaf menu-mlid-753'><a href='/invest'>Invest</a></li>
-			<li class='last leaf menu-mlid-1109'><a href='/contact'>Contact</a></li>
+            <li class='first leaf menu-mlid-1264 active active-trail' role='menuitem'><a href='about.php' class='active active-trail'>Feeds</a></li>
+			<li class='leaf has-children' role='menuitem'><a href='/company'>Profile</a></li>
+			<li class='leaf has-children' role='menuitem'><a href='/press'>Friends</a></li>
+			<li class='leaf menu-mlid-753'><a href='/invest'>Messages</a></li>
+			<li class='leaf menu-mlid-681'><a href='/blogs'>Events</a></li>
+			<li class='last leaf menu-mlid-1109'><a href='/careers'>Buy Beacons</a></li>
 
             <li class='dropdown hide' id='main-menu-more-item'>
               <a href='#' class='dropdown-toggle' data-toggle='dropdown'>
