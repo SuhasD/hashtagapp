@@ -36,15 +36,13 @@ if(count($errors) == 0) {
 	$successes[] = lang("ACCOUNT_ACTIVATION_COMPLETE");
 }
 
-require_once("models/header.php");
+require_once("models/account_header.php");
 
 echo "
 <body>
 <div id='wrapper'>
-<div id='top'><div id='logo'></div></div>
+<div id='content' class='container account-page-wrap'>	
 <div id='content'>
-<h1>UserCake</h1>
-<h2>Activate Account</h2>
 
 <div id='left-nav'>";
 
@@ -52,7 +50,7 @@ include("left-nav.php");
 
 echo "
 </div>
-<div id='main'>";
+<div id='main' class='col-md-7 account-wrap no-left-padding'>";
 
 echo resultBlock($errors,$successes);
 

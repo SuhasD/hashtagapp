@@ -134,47 +134,46 @@ if(!empty($_POST))
 $languages = getLanguageFiles(); //Retrieve list of language files
 $templates = getTemplateFiles(); //Retrieve list of template files
 $permissionData = fetchAllPermissions(); //Retrieve list of all permission levels
-require_once("models/header.php");
+require_once("models/account_header.php");
 
 echo "
 <body>
 <div id='wrapper'>
-<div id='top'><div id='logo'></div></div>
-<div id='content'>
-<h1>UserCake</h1>
-<h2>Admin Configuration</h2>
-<div id='left-nav'>";
-
-include("left-nav.php");
-
+<div id='content' class='container account-page-wrap'>	";
+include("left-nav-admin.php");
 echo "
-</div>
-<div id='main'>";
+</div>";
 
 echo resultBlock($errors,$successes);
 
 echo "
-<div id='regbox'>
+
+<div class='col-md-7'>
 <form name='adminConfiguration' action='".$_SERVER['PHP_SELF']."' method='post'>
-<p>
+
+<div class='input-group'>
 <label>Website Name:</label>
-<input type='text' name='settings[".$settings['website_name']['id']."]' value='".$websiteName."' />
-</p>
-<p>
+<input type='text' class='form-control'   class='form-control' name='settings[".$settings['website_name']['id']."]' value='".$websiteName."'/>
+</div>
+
+<div class='input-group'>
 <label>Website URL:</label>
-<input type='text' name='settings[".$settings['website_url']['id']."]' value='".$websiteUrl."' />
-</p>
-<p>
+<input type='text' class='form-control'  name='settings[".$settings['website_url']['id']."]' value='".$websiteUrl."' />
+</div>
+
+<div class='input-group'>
 <label>Email:</label>
-<input type='text' name='settings[".$settings['email']['id']."]' value='".$emailAddress."' />
-</p>
-<p>
+<input type='text' class='form-control'  name='settings[".$settings['email']['id']."]' value='".$emailAddress."' />
+</div>
+
+<div class='input-group'>
 <label>Activation Threshold:</label>
-<input type='text' name='settings[".$settings['resend_activation_threshold']['id']."]' value='".$resend_activation_threshold."' />
-</p>
-<p>
+<input type='text' class='form-control'  name='settings[".$settings['resend_activation_threshold']['id']."]' value='".$resend_activation_threshold."' />
+</div>
+
+<div class='input-group' >
 <label>Language:</label>
-<select name='settings[".$settings['language']['id']."]'>";
+<select class='form-control' name='settings[".$settings['language']['id']."]'>";
 
 //Display language options
 foreach ($languages as $optLang){
@@ -188,10 +187,11 @@ foreach ($languages as $optLang){
 
 echo "
 </select>
-</p>
-<p>
+</div>
+
+<div class='input-group'>
 <label>Email Activation:</label>
-<select name='settings[".$settings['activation']['id']."]'>";
+<select class='form-control'  name='settings[".$settings['activation']['id']."]'>";
 
 //Display email activation options
 if ($emailActivation == "true"){
@@ -207,10 +207,11 @@ else {
 	</select>";
 }
 
-echo "</p>
-<p>
+echo "</div>
+
+<div class='input-group'>
 <label>Template:</label>
-<select name='settings[".$settings['template']['id']."]'>";
+<select class='form-control' name='settings[".$settings['template']['id']."]'>";
 
 //Display template options
 foreach ($templates as $temp){
@@ -224,8 +225,11 @@ foreach ($templates as $temp){
 
 echo "
 </select>
-</p>
-<input type='submit' name='Submit' value='Submit' />
+</div>
+
+<div class='input-group' style='margin-top:10px;'>
+<input type='submit' class='btn btn-success' name='Submit' value='Submit' />
+</div>
 </form>
 </div>
 </div>

@@ -42,26 +42,20 @@ if(!empty($_POST))
 
 $permissionData = fetchAllPermissions(); //Retrieve list of all permission levels
 
-require_once("models/header.php");
-
+require_once("models/account_header.php");
 echo "
 <body>
 <div id='wrapper'>
-<div id='top'><div id='logo'></div></div>
-<div id='content'>
-<h1>UserCake</h1>
-<h2>Admin Permissions</h2>
-<div id='left-nav'>";
-
-include("left-nav.php");
-
+<div id='content' class='container account-page-wrap'>	";
+include("left-nav-admin.php");
 echo "
-</div>
-<div id='main'>";
+</div>";
 
 echo resultBlock($errors,$successes);
 
 echo "
+
+<div class='col-md-7'>
 <form name='adminPermissions' action='".$_SERVER['PHP_SELF']."' method='post'>
 <table class='admin'>
 <tr>

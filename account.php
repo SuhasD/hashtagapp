@@ -11,48 +11,11 @@ require_once("models/account_header.php");
 echo "
 <body>
 <div id='wrapper'>
-
-<div id='content' class='container account-page-wrap'>
-<div id='left-nav' class='col-md-2 no-left-padding'>
-	<div class='profilePic'>
-		<img src='models/site-templates/images/profile.jpg' height='160' width=160'/>
-	</div>
-	
-	<div class='userName'>
-		<h3>$loggedInUser->displayname</h3>
-		<h2>#RiskEverything</h2>
-	</div>
-	
-	
-	<div class='popular-tags'>
-		<h3>Known For</h3>
-		<hr />
-		<ul>
-			<li><a href='#'>#AccountHome</a></li>
-			<li><a href='#'>#UserSettings</a></li>
-			<li><a href='#'>#Logout</a></li>
-			<li><a href='#'>#AdminConfiguration</a></li>
-			<li><a href='#'>#AdminUsers</a></li>
-			<li><a href='#'>#AdminPermissions</a></li>
-			<li><a href='#'>#AdminPages</a></li>
-		</ul>
-	</div>
-	
-<div class='btn-group'>
-                <button class='btn btn-warning customBtn dropdown-toggle' data-toggle='dropdown'>Report Lost Tag <span class='caret'></span></button>
-                <ul class='dropdown-menu'>
-                  <li><a href='#'>Action</a></li>
-                  <li><a href='#'>Another action</a></li>
-                  <li><a href='#'>Something else here</a></li>
-                  <li class='divider'></li>
-                  <li><a href='#'>Separated link</a></li>
-                </ul>
-              </div>
-	";
-include("left-nav.php");
+<div id='content' class='container account-page-wrap'>	";
+include("left-nav-profile.php");
 echo "
 </div>
-<div id='main' class='col-md-8 account-wrap no-left-padding'>
+<div id='main' class='col-md-7 account-wrap no-left-padding'>
 <!-- <h1>$loggedInUser->displayname</h1>
 <h2>Account</h2> -->
 <div class='bs-example'>
@@ -64,7 +27,7 @@ echo "
 	
 	<div class='col-md-4'>
 	<div class='input-group'>
-		<input type='text' class='form-control' id='status' placeholder='Enter Status...'>
+		<input type='text' class='form-control' id='status' placeholder='#RiskEverything'>
 		<span class='input-group-addon glyphicon glyphicon-pencil'></span>
 	</div>
 	</div>
@@ -74,7 +37,7 @@ echo "
 	</div>
 	<div class='col-md-4'>
 	<div class='input-group'>
-		<input type='text' class='form-control' id='phone' placeholder='Enter Phone...'>
+		<input type='text' class='form-control' id='phone' placeholder='9986242442'>
 		<span class='input-group-addon glyphicon glyphicon-pencil'></span>
 	</div>
 	</div>
@@ -135,7 +98,38 @@ echo "
 
 </div>
 
-<div class='col-md-2'>
+<div class='col-md-3'>
+
+	<div class='who-to-follow'>
+		<h3>Similar People</h3>
+		<hr />
+		<ul class='people-suggestion-list'>
+			<li> 
+				<div class='picture-container'>
+					<img src='models/site-templates/images/manu.jpg' width='48' height='48'/>
+				</div>
+				<div class='profile-snapshot'>
+					<h3> Manu Karthik </h3>
+					<p> <span class='blue-hash'>#</span>Cricket, <span class='blue-hash'>#</span>iOS8, <span class='blue-hash'>#</span>iPad </p>
+					<a href='javascript:void(0)' class='add-friend-link'>Add Friend</a>
+				</div>
+				<div class='clearfix'></div>
+			</li>		
+
+			<li> 
+				<div class='picture-container'>
+					<img src='models/site-templates/images/kiran.jpg' width='48' height='48'/>
+				</div>
+				<div class='profile-snapshot'>
+					<h3> Kiran B K </h3>
+					<p> <span class='blue-hash'>#</span>Football, <span class='blue-hash'>#</span>Movies,  <span class='blue-hash'>#</span>Programmer </p>
+					<a href='javascript:void(0)' class='add-friend-link'>Add Friend</a>
+				</div>
+				<div class='clearfix'></div>
+			</li>
+		</ul>
+	</div>
+	
 		<div class='popular-tags-right'>
 		<h3>Trending Now</h3>
 		<hr />
@@ -157,11 +151,15 @@ if(isUserLoggedIn()) {
 	if ($loggedInUser->checkPermission(array(2))){
 	echo "
 	
-	<div class='btn-group-vertical'>
-	<button type='button' class='btn btn-default'><a href='admin_configuration.php'>Admin Configuration</a></button>
-	<button type='button' class='btn btn-default'><a href='admin_users.php'>Admin Users</a></button>
-	<button type='button' class='btn btn-default'><a href='admin_permissions.php'>Admin Permissions</a></button>
-	<button type='button' class='btn btn-default'><a href='admin_pages.php'>Admin Pages</a></button>
+	<div class='admin-panel'>
+ 	<h3>Admin Panel</h3>
+	<hr />
+	<ul>
+	<li><a href='admin_configuration.php'>Admin Configuration</a></li>
+	<li><a href='admin_users.php'>Admin Users</a></li>
+	<li><a href='admin_permissions.php'>Admin Permissions</a></li>
+	<li><a href='admin_pages.php'>Admin Pages</a></li>
+	</ul>
 	</div>
 	
 	<!-- <hr>

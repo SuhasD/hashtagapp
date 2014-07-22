@@ -41,23 +41,21 @@ if (count($deletions) > 0) {
 //Update DB pages
 $dbpages = fetchAllPages();
 
-require_once("models/header.php");
-
+require_once("models/account_header.php");
 echo "
 <body>
 <div id='wrapper'>
-<div id='top'><div id='logo'></div></div>
-<div id='content'>
-<h1>UserCake</h1>
-<h2>Admin Pages</h2>
-<div id='left-nav'>";
+<div id='content' class='container account-page-wrap'>	";
+include("left-nav-admin.php");
+echo "
+</div>";
 
-include("left-nav.php");
+echo resultBlock($errors,$successes);
 
 echo "
-</div>
-<div id='main'>
-<table class='admin'>
+
+<div class='col-md-7'>
+<table class='admin table table-striped table-bordered table-hover dataTable'>
 <tr><th>Id</th><th>Page</th><th>Access</th></tr>";
 
 //Display list of pages

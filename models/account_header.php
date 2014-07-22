@@ -43,13 +43,13 @@ echo "
 
       <ul class='nav navbar-nav navbar-right'>
 	  
-        <li><a href='index.php' class='underline'><span class='blue-hash'>#</span>ContextNetworking</a></li>
-        <li class='dropdown'>
-          <a href='user_settings.php' class='underline'>Settings</a>
-        </li>     
-		<li class='dropdown'>
-          <a href='logout.php' class='underline'>Logout</a>
-        </li>
+			<li><a href='index.php' class='underline'><span class='blue-hash'>#</span>ContextNetworking</a></li>
+			<li class='dropdown'>
+			  <a href='user_settings.php' class='underline'>Settings</a>
+			</li>     
+			<li class='dropdown'>
+			  <a href='logout.php' class='underline'>Logout</a>
+			</li>
 		    <li class='first leaf menu-mlid-1264 active active-trail show-for-phones' role='menuitem'><a href='about.php' class='active active-trail'>What is <span class='hash-blue'>#</span>TAG</a></li>
 			<li class='leaf has-children show-for-phones' role='menuitem'><a href='/company'>Company</a></li>
 			<li class='leaf has-children show-for-phones' role='menuitem'><a href='/press'>Press</a></li>
@@ -71,8 +71,8 @@ echo "
             <li class='first leaf menu-mlid-1264 active active-trail' role='menuitem'><a href='about.php' class='active active-trail'>Feeds</a></li>
 			<li class='leaf has-children' role='menuitem'><a href='/company'>Profile</a></li>
 			<li class='leaf has-children' role='menuitem'><a href='/press'>Friends</a></li>
-			<li class='leaf menu-mlid-753'><a href='/invest'>Messages</a></li>
-			<li class='leaf menu-mlid-681'><a href='/blogs'>Events</a></li>
+			<li class='leaf menu-mlid-753'><a href='/invest'>Invest</a></li>
+			<li class='leaf menu-mlid-681'><a href='/blogs'>SmartSuggest*</a></li>
 			<li class='last leaf menu-mlid-1109'><a href='/careers'>Buy Beacons</a></li>
 
             <li class='dropdown hide' id='main-menu-more-item'>

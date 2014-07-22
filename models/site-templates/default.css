@@ -9,8 +9,8 @@ html, body {
 }
 
 .what-is-hash-tag{
-background: #4089C0;
-background-image: url('https://g.twimg.com/about/gettingstarted_patternstrip_280.png');
+background: #009a7f;
+background-image: url('images/herobg.png');
 border-top: 5px solid #FFF;
 color: #FFF;
 padding-top: 40px;
@@ -104,11 +104,49 @@ top: 50%;
 text-align:left;
 color:white;
 border-bottom: none;
-font-size: 40px;
+font-size: 35px;
 line-height: 40px;
 text-shadow: 0px 0px 5px rgba(0,0,0,1);
 }
 
+.faq-wrapper h2{
+color: #6b717b;
+font-size: 27px;
+font-weight: bold;
+padding:30px 0px;
+text-align: left;
+padding-left: 15px;
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body{
+	border-top: 0 !important;
+}
+
+.faq-wrapper {
+	padding:30px 0;
+}
+
+.faq-section{
+background: #fff;
+}
+
+.panel-default {
+border:none !important;
+}
+
+.panel-title a{
+	font-weight:500;
+	font-size:18px;
+}
+
+.panel {
+box-shadow: 0 0 0 !important;
+background:transparent !important;
+}
+
+.panel-default>.panel-heading{
+	background:transparent !important;
+}	
 
 .getting-started-text h1 {
 font-weight: normal;
@@ -162,6 +200,19 @@ margin-top: 40px;
 color:white;
 }
 
+h1.permalink{
+ font-size:26px;
+ line-height:30px;
+ position:absolute;
+ margin-top:-170px;
+ padding-left:15px;
+}
+
+h1 a{
+	color:#ededed !important;
+	text-decoration:underline !important;
+}
+
 .subNav li{
 	float:left;
 }
@@ -200,6 +251,7 @@ z-index: 400;
 
 .white-hover{
 	color:white !important;
+	text-decoration:none;
 }
 
 .subNav li a{
@@ -238,7 +290,7 @@ background: #e9e9e9 !important;
 }
 
 .blue-hash{
-color:#63aeee;margin-right:2px;font-weight:bold;
+color:#009a7f !important;margin-right:2px;font-weight:bold;
 }
 
 .underline{
@@ -415,11 +467,19 @@ text-shadow: none;
 	cursor: pointer; */
 }
 
-.userName{
-float:left;
+.text a, .username a, .tweet-time{
+	color:white !important;
 }
 
-.userName h3{
+.profile-username{
+	float:left;
+}
+
+.userName{
+
+}
+
+.profile-username  h3{
 	color: #292f33;
 	font-weight: 700;
 	font-size: 18px;
@@ -572,4 +632,58 @@ padding-bottom:10px;
 .footer-item-list ul{
 	padding-left:0px;
 	padding-top:15px;
+}
+
+.people-suggestion-list li:first-child{
+	padding-top:0px !important;
+}
+
+.people-suggestion-list li:last-child{
+	border-bottom:none !important;
+}
+
+.carousel-caption h1{
+	text-align:left !important;
+}
+
+.carousel-caption h3{
+	text-align:left !important;
+	position:absolute;
+	margin-top:-50px;
+	font-size:20px;
+	padding-left:15px;
+}
+
+
+
+.people-suggestion-list li{
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #eeeeee;
+}
+
+.picture-container{
+	float:left;
+}
+
+.profile-snapshot p, .profile-snapshot a{
+	color:#8899a6;
+	font-size:12px;
+	margin-bottom:0px;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+
+.profile-snapshot a:hover{
+	color:black !important;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+	text-decoration:underline !important;
+}
+
+.profile-snapshot{
+	float:left;
+	margin-left:6px;
 }

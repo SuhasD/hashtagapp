@@ -21,27 +21,22 @@ if(!empty($_POST))
 
 $userData = fetchAllUsers(); //Fetch information for all users
 
-require_once("models/header.php");
+require_once("models/account_header.php");
 echo "
 <body>
 <div id='wrapper'>
-<div id='top'><div id='logo'></div></div>
-<div id='content'>
-<h1>UserCake</h1>
-<h2>Admin Users</h2>
-<div id='left-nav'>";
-
-include("left-nav.php");
-
+<div id='content' class='container account-page-wrap'>	";
+include("left-nav-admin.php");
 echo "
-</div>
-<div id='main'>";
+</div>";
 
 echo resultBlock($errors,$successes);
 
 echo "
+
+<div class='col-md-7'>
 <form name='adminUsers' action='".$_SERVER['PHP_SELF']."' method='post'>
-<table class='admin'>
+<table class='admin table table-striped table-bordered table-hover dataTable'>
 <tr>
 <th>Delete</th><th>Username</th><th>Display Name</th><th>Title</th><th>Last Sign In</th>
 </tr>";
