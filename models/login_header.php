@@ -68,12 +68,12 @@ echo "
   <div class='container'>
     <div class='collapse navbar-collapse' id='subnav-wrapper' align='center'>
 		<ul class='menu nav clearfix subNav' role='menu'>
-            <li class='first leaf menu-mlid-1264 active active-trail' role='menuitem'><a href='about.php' class='active active-trail'>What is <span class='hash-blue'>#</span>ContextNetworking?</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/trial'>30-Day Trial<span class='conditions-apply'>*</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/preorder'>Pre-order</a></li>
-			<li class='leaf has-children' role='menuitem'><a href='/about'>Company</a></li>
-			<li class='leaf menu-mlid-753'><a href='/invest'>Invest</a></li>
-			<li class='last leaf menu-mlid-1109'><a href='/contact'>Contact</a></li>
+			<li class='leaf has-children  active active-trail' role='menuitem'><a class='active active-trail' href='index.php'>30-Day Free Trial<span class='conditions-apply'>*</a></li>
+			<li class='leaf has-children' role='menuitem'><a href='pre-order.php'>Pre-order</a></li>
+			<li class='first leaf menu-mlid-1264' role='menuitem'><a href='faq.php' class=''>FAQ</a></li>
+			<li class='leaf has-children' role='menuitem'><a href='about.php'>Company</a></li>
+			<li class='leaf menu-mlid-753'><a href='/invest'>For Investors</a></li>
+			<!-- <li class='last leaf menu-mlid-1109'><a href='about.php'></a></li> -->
 
             <li class='dropdown hide' id='main-menu-more-item'>
               <a href='#' class='dropdown-toggle' data-toggle='dropdown'>

@@ -166,11 +166,6 @@ echo"
     </div>
 </div>
 </div>
-
-
-
-</div>
-<div id='bottom'>
 </div>
 </div>
 </body>

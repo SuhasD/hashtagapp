@@ -1,42 +1,20 @@
 <!-- Footer common -->
 <div class='row'>
 	<div class='container'>
-	<div class='col-md-4 no-left-padding'>
-		<div class='footer-item-list'>
-			<h3>Learn more</h3>
-			<ul>
-				<li class='first'><a href='#'>Story of a Tweet</a></li>
-				<li><a href='#'>New profiles</a></li>
-				<li><a href='# class='active'>Photos</a></li>
-				<li class='last'><a href='#'>#WorldCup</a></li>
+		<div class='col-md-5 copyright no-left-padding'>
+			<a href='javascript:void(0)'>© 2014 #TAG</a>
+		</div>
+		<div class='pull-right'>
+			<ul class='right-footer-list'>
+				<li> For Investors |</li>
+				<li> Press Kit |</li>
+				<li> Privacy | </li>
+				<li> Legal | </li>
+				<li> Contact </li>
 			</ul>
 		</div>
+		<div class='clearfix'></div>
 	</div>
-
-	<div class='col-md-4'>
-		<div class='footer-item-list'>
-		<h3>Learn more</h3>
-			<ul>
-				<li class='first'><a href='#'>Story of a Tweet</a></li>
-				<li><a href='#'>New profiles</a></li>
-				<li><a href='# class='active'>Photos</a></li>
-				<li class='last'><a href='#'>#WorldCup</a></li>
-			</ul>
-		</div>
-	</div>	
-	
-	<div class='col-md-4'>
-		<div class='footer-item-list'>
-		<h3>Learn more</h3>
-			<ul>
-				<li class='first'><a href='#'>Story of a Tweet</a></li>
-				<li><a href='#'>New profiles</a></li>
-				<li><a href='# class='active'>Photos</a></li>
-				<li class='last'><a href='#'>#WorldCup</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
 </div>
 
 
@@ -44,23 +22,6 @@
 <script src="models/site-templates/js/jquery.min.js"></script>
 <script src='models/site-templates/js/bootstrap.min.js'></script>
 
-<script>
-$('[data-toggle='tooltip']').tooltip({
-    'placement': 'top'
-});
-$('[data-toggle='popover']').popover({
-    trigger: 'hover',
-        'placement': 'top'
-});
-
-$('#userNameField').tooltip({
-    'show': true,
-        'placement': 'bottom',
-        'title': 'Please remember to...'
-});
-
-$('#userNameField').tooltip('show');
-</script>
 
 <script type='text/javascript'>
 /* 		var winHeight = $( window ).height() - 25;
@@ -71,7 +32,7 @@ $('#userNameField').tooltip('show');
 <script type='text/javascript'>
 
 var classHolder = '.product1 .product-image'
-$(".product1").hover(function(){
+$(".product1Btn").hover(function(){
 	$(classHolder).css('height','250px');
 }, function
 (){
@@ -79,7 +40,7 @@ $(".product1").hover(function(){
 });
 
 var classHolder2 = '.product2 .product-image'
-$(".product2").hover(function(){
+$(".product2Btn").hover(function(){
 	$(classHolder2).css('height','250px');
 }, function
 (){
@@ -87,7 +48,7 @@ $(".product2").hover(function(){
 });
 
 var classHolder3 = '.product3 .product-image'
-$(".product3").hover(function(){
+$(".product3Btn").hover(function(){
 	$(classHolder3).css('height','250px');
 }, function
 (){
