@@ -51,7 +51,7 @@ echo "
   <div class='more-about'>
 	<h3> About  $loggedInUser->displayname</h3>
 	<hr />
-	Hey, $loggedInUser->displayname. This section will be a brief description about yourself, or maybe a review about a restaurant. You registered this account on " . date("M d, Y", $loggedInUser->signupTimeStamp()) . ".
+	Hey, $loggedInUser->displayname. This section will be a brief description about yourself, or maybe a review about a restaurant.
   </div>
   
   <div class='recent-photos'>

@@ -1,10 +1,9 @@
-<?php
+<?php session_start(); ?><?php
 /*
 UserCake Version: 2.0.2
 http://usercake.com
 */
 
-echo"<script src='models/site-templates/js/login.js' type='text/javascript'></script>";
 
 require_once("models/config.php");
 if (!securePage($_SERVER['PHP_SELF'])){die();}

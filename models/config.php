@@ -23,7 +23,7 @@ $websiteName = $settings['website_name']['value'];
 $websiteUrl = $settings['website_url']['value'];
 $emailAddress = $settings['email']['value'];
 $resend_activation_threshold = $settings['resend_activation_threshold']['value'];
-$emailDate = date('dmy');
+$emailDate = date_default_timezone_set('dmy');
 $language = $settings['language']['value'];
 $template = $settings['template']['value'];
 
