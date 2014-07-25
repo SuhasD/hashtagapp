@@ -22,7 +22,7 @@ echo"
 </div>
 <div id='main'>
 <div class='container '>
-	<div class='col-md-7 no-left-padding'>
+	<div class='col-md-8 no-left-padding'>
 		<div class='pre-order-intro'>
 			<h2> Pre-order your #Tag </h2>
 			<hr>

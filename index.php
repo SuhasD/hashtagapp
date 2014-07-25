@@ -338,3 +338,17 @@ echo"
 
 ?>
 
+<script>
+
+var lastScrollTop = 0;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st > lastScrollTop){
+       $("#subnavbar").css('position', 'relative');
+   } else {
+      $("#subnavbar").css('position', 'fixed');
+   }
+   lastScrollTop = st;
+});
+
+</script>

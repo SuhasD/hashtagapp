@@ -269,6 +269,10 @@ background: url('images/subnavbg.png') repeat-x #efefef;
 border-top: 1px solid #eee;
 height: auto;
 clear: both;
+z-index: 5000;
+right: 0;
+left: 0;
+transition:1s;
 }
 
 .learn-more-btn{
@@ -472,6 +476,85 @@ text-align:left;
 .carousel-indicators li{
 	background:#86ffd5  !important;
 }
+
+#hero .hero-wrap-outer {
+background-image: url("https://g2.twimg.com/about/system/files/styles/hero_1600w_300h/public/about/page/hero/about-frontdoor-hero.jpg");
+background-repeat: no-repeat;
+background-position: top center;
+}
+
+#hero.hero-tall .hero-wrap-outer {
+min-height: 150px;
+background-position: center center;
+}
+
+#hero .hero-wrap-inner {
+padding:30px 0;
+margin: 0 auto;
+vertical-align: middle;
+position: relative;
+z-index: 400;
+}
+
+.tag-for{
+display: block;
+overflow: auto;
+margin: 0 30px;
+text-decoration: none;
+}
+
+.tag-for .tag-for-illustration {
+float: left;
+margin-right: 10px;
+background: url("https://g.twimg.com/sites/about/modules/internal/features/feature_corporate/img/sprite2.png") no-repeat;
+width: 150px;
+height: 150px;
+}
+
+.tag-for-media .tag-for-illustration {
+background-position: 0 -153px !important;
+}
+
+.tag-for-developers .tag-for-illustration {
+background-position: 0 -312px!important;
+}
+
+
+
+.tag-for h3 {
+margin-top: 12px;
+font-size: 21px;
+color:#333333;
+font-weight:700;
+}
+
+.tag-for p {
+font-size: 16px;
+margin-top:5px;
+line-height: 150%;
+color: #666;
+}
+
+#hero h1#page-title {
+color: #fff;
+font-size: 40px;
+font-weight: 700;
+line-height: 1;
+max-width: 100%;
+margin-bottom: 0;
+text-shadow: 0 1px 2px #666;
+}
+
+#hero #tagline {
+color: #fff;
+font-size: 24px;
+font-weight: 300;
+/* line-height: 300; */
+margin-top: 5px;
+text-align: center;
+margin-bottom: 0;
+}
+
 
 .carousel-indicators li.active{
 	background:#009a7f  !important;

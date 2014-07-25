@@ -31,6 +31,7 @@
 
 <script type='text/javascript'>
 
+
 var classHolder = '.product1 .product-image'
 $(".product1Btn").hover(function(){
 	$(classHolder).css('height','250px');
