@@ -45,15 +45,35 @@ padding: 30px 0;
 	margin-top:30px;
 }	
 
+.green{
+color:#009a7f !important;
+font-size: 13px;
+padding-right: 5px;
+}
+
+.what-we-made h3, .in-making h3, .who-are-we h3{
+	font-size:19px;
+}
+
+.what-we-made p, .in-making p, .who-are-we p{
+	font-size:15px;
+}
+
+.breadcrumb>li+li:before {
+padding: 0 5px;
+color: #ccc;
+content: "" !important;
+}
+
 .pre-order-intro p{
 font-size: 18px;
 line-height: 32px;
 }
 
 .pre-order-intro h2{
-color: #6b717b;
+color: black;
 font-size: 24px;
-font-weight: bold;
+font-weight: 300;
 text-align:left !important;
 }
 
@@ -262,6 +282,16 @@ h1 a{
 
 .subNav li{
 	float:left;
+}
+
+.what-we-made, .in-making{
+	margin-top:20px;
+}
+
+.nough-said h2{
+margin-top:15px;
+font-weight:700;
+	text-align:left !important;
 }
 
 #subnavbar{
@@ -519,17 +549,39 @@ background-position: 0 -153px !important;
 background-position: 0 -312px!important;
 }
 
+.legal-page-wrap{
+	margin-top:20px;
+	margin-bottom:30px;
+}	
 
+.legal-wrap{
+	margin-top:20px;
+}
+
+.legal-page-wrap h3{
+	font-size:20px;
+	color:#009a7f !important;
+}
+
+.legal-wrap h2{
+	text-align:left !important;
+	font-size:18px;
+	color:#009a7f !important;
+}
 
 .tag-for h3 {
 margin-top: 12px;
-font-size: 21px;
-color:#333333;
-font-weight:700;
+font-size: 19px;
+color:black;
+font-weight:500;
+}
+
+.get-in-touch h2{
+text-align:left !important;
 }
 
 .tag-for p {
-font-size: 16px;
+font-size: 15px;
 margin-top:5px;
 line-height: 150%;
 color: #666;

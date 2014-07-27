@@ -26,7 +26,7 @@ echo"
 		<div class='pre-order-intro'>
 			<h2> Pre-order your #Tag </h2>
 			<hr>
-			<p> Like we promised, we are not going to ask you to make the payement until 30 Days after you recieve your #Tag.
+			<p> Like we promised, we are not going to ask you to make the payement until 33 Days after Signup.
 			However, In order for us to customize your #Tag with your username and ship it, you need to provide valid  Credit/Debit card details. We will let you know when your personalised Tag is ready.</p>
 			
 			<p>Just let us know how many Tags you would like to have, once we start shipping! </p>

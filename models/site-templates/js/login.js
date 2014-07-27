@@ -10,3 +10,5 @@
 			if(i == images.length)
 				i = 0;
 		}, 5000);   
+		
+		

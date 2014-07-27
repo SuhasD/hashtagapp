@@ -37,17 +37,38 @@ echo"
 	  
 <div class='container faq-page-wrap' style='padding-left:0px;margin-top:30px;margin-bottom:30px;'>
 <div class='col-md-7 no-left-padding'>
-<h3>Who are we?</h3>
+	<div class='who-are-we'>
+	<h3>Who are we?</h3>
+	<hr>
+	<p> #Tag was established with no vision and no business plan.
+	We make fun products, save some time for our customers and help them get personalised shopping and restaurant sugestions.  </p>
+
+	<p>We are made up of a bunch of Broke Engineers who cannot afford beer. The only thought which drives us is to soon be able to connect the Physical world with the Digital world.</p>
+	</div>
+
+<div class='what-we-made'>
+<h3>What have we made before?</h3>
 <hr>
-<p> #Tag was anti established in 2014 with no vision and no business plan.
-We make fun products, save some time for our customers and help them get personalised shopping and restaurant sugestions.  </p>
+ABSOLUTELY NOTHING!
+</div>
 
-<p>We are made up of a bunch of Broke Engineers who cannot afford beer. The only thought which drives us is to soon be able to connect the Physical world with the Digital world.</p>
-
-<div class=''>
-<h3>What have we made?</h3>
+<div class='in-making'>
+<h3>In-The-Making</h3>
 <hr>
+<p><span class='glyphicon glyphicon-pushpin green'></span> #ContextNetwork Revolution<p>
+<p><span class='glyphicon glyphicon-pushpin green'></span> Micro-location based utilities - From viewing a map of your personal things to getting personalized shopping suggestions - Get the V.I.P Treatment. 'Nough said! </p>
+</div>
 
+<div class='nough-said'>
+<ol class='breadcrumb'>
+  <li><a href='#'>Sign Up</a> <span class='glyphicon glyphicon-arrow-right' style='padding-left:10px;'></span></li>
+  <li><a href='#'>Get our App.</a> <span class='glyphicon glyphicon-arrow-right' style='padding-left:10px;'></span></li>
+  <li>Join the <a href='#'>#contextNetworking</a> revolution</li>
+</ol>
+</div>
+
+<div class='get-in-touch'>
+	<h2> Want to get in touch? Don't hesitate to <a href='contact.php'>Contact Us</a> or visit us at our <a href='contact.php'>Garage</a></h2>
 </div>
 
 </div> <!-- Left div -->

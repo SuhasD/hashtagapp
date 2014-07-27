@@ -6,11 +6,11 @@
 		</div>
 		<div class='pull-right'>
 			<ul class='right-footer-list'>
-				<li> For Investors |</li>
-				<li> Press Kit |</li>
-				<li> Privacy | </li>
-				<li> Legal | </li>
-				<li> Contact </li>
+				<li><a href='#'> For Investors |</a></li>
+				<li><a href='#'> Press Kit | </a></li>
+				<li><a href='privacy.php'> Privacy | </a></li>
+				<li><a href='legal.php'> Legal | </a></li>
+				<li><a href='contact.php'> Contact </a></li>
 			</ul>
 		</div>
 		<div class='clearfix'></div>
