@@ -84,7 +84,7 @@ if(!empty($_POST))
 require_once("models/login_header.php");
 
 echo "
-<body>
+<body style='background:black'>
 <div id='wrapper'>
 <div id='content'>
 

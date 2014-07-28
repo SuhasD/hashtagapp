@@ -83,7 +83,7 @@ if(!empty($_POST))
 
 require_once("models/login_header.php");
 echo "
-<body>
+<body style='background:black'>
 <div id='wrapper'>
 <div id='content'>
 <div id='slideit'></div>";
@@ -175,7 +175,7 @@ echo"
 <script src="models/site-templates/js/jquery.min.js"></script>
 <script type="text/javascript">
 		var winHeight = $( window ).height() ;
-		var boxHeight = $( window ).height() - 70;
+		var boxHeight = $( window ).height() - 83;
    		var i =0; 
 		var images = ['models/site-templates/images/image1.png','models/site-templates/images/image4.png','models/site-templates/images/image4.png'];
 		var image = $('#slideit');

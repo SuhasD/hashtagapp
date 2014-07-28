@@ -6,8 +6,8 @@
 		</div>
 		<div class='pull-right'>
 			<ul class='right-footer-list'>
-				<li><a href='#'> For Investors |</a></li>
-				<li><a href='#'> Press Kit | </a></li>
+				<li><a href='workinprogress.php'> For Investors |</a></li>
+				<li><a href='workinprogress.php'> Press Kit | </a></li>
 				<li><a href='privacy.php'> Privacy | </a></li>
 				<li><a href='legal.php'> Legal | </a></li>
 				<li><a href='contact.php'> Contact </a></li>

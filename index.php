@@ -34,7 +34,7 @@ echo "
 	  
       <div class='carousel-caption col-md-7'>
 		<h1 class='permalink'> Sign up for a 30-Day Free Trial and get a Personalized Beacon for free*. Let your keys do all the talking!</h1>
-		<h3> Join the <a href='trial.php' target='_blank'> <span class='dark-hash underline'>#</span>ContextNetworking</a> revolution. </h3>
+		<h3> Join the <a href='context.php' target='_blank' class='context-link'>#ContextNetworking</a> revolution. </h3>
 		<div class='cta-buttons left-align'>
           <div class='button-wrapper'>
 			<button class='btn btn-info white-launch-preorder'>Pre-order </button>
@@ -65,19 +65,39 @@ echo "
 	  </div>
     </div>
 	
-   <!-- <div class='item window-height'>
-      <img src='models/site-templates/images/bg2.jpg' alt='...'>
-      <div class='carousel-caption'>
-        ...
+    <div class='item  second-slide'>
+      <div class='carousel-caption col-md-7'>
+		<h1 class='permalink'> Just attach, stick or drop your Tag into any item you might lose: laptops, wallets, keys, guitars, bikes—you name it. Then get on with the fun.</h1>
+		<h3> Join the <a href='context.php' target='_blank' class='context-link'>#ContextNetworking</a> revolution. </h3>
+		<div class='cta-buttons left-align'>
+          <div class='button-wrapper'>
+			<button class='btn btn-info white-launch-preorder'>Pre-order </button>
+		  </div>
+		</div>
       </div>
+	  
+	  <div class='carousel-caption col-md-3' style='float: right;position: absolute;left: auto !important;right: 11%!important;'>
+
+	  </div>
     </div>
 
-    <div class='item window-height'>
-      <img src='models/site-templates/images/bg3.jpg' alt='...'>
-      <div class='carousel-caption'>
-        ...
+    <div class='item third-slide'>
+      
+      <div class='carousel-caption col-md-7'>
+		<h1 class='permalink'> Deliver the right message, to the right person, at the right time! Greet every customer with V.I.P Treatment</h1>
+		<h3> Join the <a href='context.php' target='_blank' class='context-link'>#ContextNetworking</a> revolution. </h3>
+		<div class='cta-buttons left-align'>
+          <div class='button-wrapper'>
+			<button class='btn btn-info white-launch-preorder'>Find out how</button>
+		  </div>
+		</div>
       </div>
-    </div>  -->
+	  
+	  <div class='carousel-caption col-md-3' style='float: right;position: absolute;left: auto !important;right: 11%!important;'>
+
+
+	  </div>
+    </div>
   </div>
 
   <!-- Controls 
@@ -93,7 +113,7 @@ echo "
   <div class='what-is-hash-tag-inner clearfix container'>
     <div class='getting-started-text col-md-8 no-left-padding'>
 	  <h1>Let your keys do all the talking!</h1>
-      <h2>Getting Started With <span class='blue-hash'>#</span>ContextNetworking</h2>
+      <h2>Getting Started With #ContextNetworking</h2>
 	  <iframe width='560' height='315' src='//www.youtube.com/embed/pqDm3gZNZPM' frameborder='0' allowfullscreen></iframe>
     </div>
 	<div class='col-md-4'>
@@ -136,10 +156,17 @@ echo "
     <div class='product-image container'>
 	<div class='col-md-8 no-left-padding'>
       <h2>Get suggestions based on Micro-location.</h2>
+	  
+	 <!-- <h3> From shopping to retaurants, get personalised suggestions based on your taste and micro-location </h3> -->
 	  </div>
 	  <div class='col-md-4'>
-		<a class='btn btn-info learn-more-btn product3Btn' href='#'>
-        Learn more</a>
+		<!-- <div class='controller-hover'>
+				<div class='pulse-circle'></div>
+				<div class='pulse-circle pulse-circle-second'></div>
+		</div> -->
+		<a href='pre-order.php' style='margin-top:25px;' class='product3Btn btn btn-primary btn-lg white-launch-preorder'>
+			1st variant of product here
+		</a>
 		</div>
     </div>
   </div> <!-- Product Div - End -->
@@ -150,8 +177,9 @@ echo "
       <h2>Find people with Similar Interests.</h2>
 	  </div>
 	  <div class='col-md-4'>
-		<a class='btn btn-info learn-more-btn product1Btn' href='#'>
-        Learn more</a>
+		<a href='pre-order.php' style='margin-top:25px;' class='product1Btn btn btn-primary btn-lg white-launch-preorder'>
+			2nd variant of product here
+		</a>
 		</div>
     </div>
   </div> <!-- Product Div - End -->
@@ -163,8 +191,9 @@ echo "
       <h2>Explore nearby Points of Interest.</h2>
 	  </div>
 	  <div class='col-md-4'>
-		<a class='btn btn-info learn-more-btn product2Btn' href='#'>
-        Learn more</a>
+		<a href='pre-order.php' style='margin-top:25px;' class='product2Btn btn btn-primary btn-lg white-launch-preorder'>
+			3rd variant of product here
+		</a>
 		</div>
     </div>
   </div> <!-- Product Div - End -->
@@ -340,7 +369,7 @@ echo"
 
 <script>
 
-var lastScrollTop = 0;
+/* var lastScrollTop = 0;
 $(window).scroll(function(event){
    var st = $(this).scrollTop();
    if (st > lastScrollTop){
@@ -349,6 +378,6 @@ $(window).scroll(function(event){
       $("#subnavbar").css('position', 'fixed');
    }
    lastScrollTop = st;
-});
+}); */
 
 </script>

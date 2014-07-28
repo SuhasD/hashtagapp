@@ -73,7 +73,7 @@ echo "
 			<li class='leaf has-children' role='menuitem'><a href='pre-order.php'>Pre-order</a></li>
 			<li class='first leaf menu-mlid-1264' role='menuitem'><a href='faq.php' class=''>FAQ</a></li>
 			<li class='leaf has-children' role='menuitem'><a href='about.php'>Company</a></li>
-			<li class='leaf menu-mlid-753'><a href='/invest'>For Investors</a></li>
+			<li class='leaf menu-mlid-753'><a href='workinprogress.php'>For Investors</a></li>
 			<!-- <li class='last leaf menu-mlid-1109'><a href='about.php'></a></li> -->
 
             <li class='dropdown hide' id='main-menu-more-item'>
