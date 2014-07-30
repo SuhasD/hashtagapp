@@ -117,7 +117,7 @@ echo "
 	  <iframe width='560' height='315' src='//www.youtube.com/embed/pqDm3gZNZPM' frameborder='0' allowfullscreen></iframe>
     </div>
 	<div class='col-md-4'>
-    <div id='carousel-example-generic' class='carousel slide phone-carousel' data-ride='carousel'>
+    <div id='carousel-example-generic1' class='carousel slide phone-carousel' data-ride='carousel'>
   <!-- Indicators -->
 
   <!-- Wrapper for slides -->

@@ -14,7 +14,7 @@ echo "
 
 <!-- Optional theme -->
 <link rel='stylesheet' href='models/site-templates/css/bootstrap-theme.min.css'>
-
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 <!-- Latest compiled and minified JavaScript -->
 
 <title>".$websiteName."</title>
